@@ -1,0 +1,101 @@
+{
+	"projects": [{
+		"name": "Robot Engineer",
+		"projects": [{
+			"name": "Robotics Systems",
+			"description": "Design, Simulate Robotics Systems",
+			"enduser": "Honda, Yakult, Srithai Miyagawa, Tostem, A-Plus Automation etc.",
+			"customer": "Robot Systems,  etc.",
+			"images": [
+			"yaskawa/1.png",
+			"yaskawa/2.png",
+			"yaskawa/3.png",
+			"yaskawa/4.png",
+			"yaskawa/5.png",
+			"yaskawa/6.png",
+			"yaskawa/7.png",
+			"yaskawa/8.png"],
+			"skill_tool": ["MotoSim",
+			"AutoCad",
+			"SolidWorks"]
+		}]
+	},
+	{
+		"name": "Software Engineer",
+		"projects": [{
+			"name": "TMEIC - UAM - Manufacturing Management System",
+			"description": "Manufacturing Management System for BUMPER LINE in third factory",
+			"enduser": "UAM (Union Autoparts Manufacturing Co., Ltd.)",
+			"customer": "TMEIC - TOSHIBA MITSUBISHI-ELECTRIC INDUSTRIAL SYSTEMS CORPORATION",
+			"images": ["uam1.png",
+			"uam2.png",
+			"uam3.png",
+			"uam4.png",
+			"uam5.png",
+			"uam6.png",
+			"uam7.png"],
+			"skill_tool": ["SAStruts (Super Agile Struts) (Seasar)",
+			"DT-X8",
+			"VB.NET",
+			"MySQL",
+			"DT-X8: Casio Barcode Scanner (Embeded Windows CE)",
+			"Spring(CANCEL)",
+			"Hibernate(CANCEL)",
+			"PostgreSQL(CANCEL)"]
+		},
+		{
+			"name": "FCT - Enterprise resource planning (ERP)",
+			"description": "Enterprise resource planning (ERP) for office uses",
+			"enduser": "FCT (F.C.Techno Co., Ltd.)",
+			"customer": "FCT (F.C.Techno Co., Ltd.)",
+			"images": ["fct-erb1.png",
+			"fct-erb2.png",
+			"fct-erb3.png",
+			"fct-erb4.png",
+			"fct-erb5.png",
+			"fct-erb6.png"
+			],
+			"skill_tool": ["Ruby",
+			"Rail",
+			"Prawn",
+			"MySQL"]
+		},
+		{
+			"name": "FCT-HCAT - GMI700 Panel Barcode System",
+			"description": "GMI700 Panel Barcode System",
+			"enduser": "HCAT (Hitachi Chemical Automotive Products (Thailand) Co.,Ltd.)",
+			"customer": "FCT (F.C.Techno Co., Ltd.)",
+			"images": ["hcat1.png",
+			"hcat2.png"],
+			"skill_tool": ["VB.NET",
+			"Microsoft SQL Server 2012",
+			"PLC: Omron CX-One 4.21 + Software (CX-Compolet+CX-One+FinsGateway+CX-Simulator)"]
+		},
+		{
+			"name": "Omron-AJEC - Batch Control System",
+			"description": "Batch Control System for beverage line",
+			"enduser": "AJEC (Ajinomoto Engineering 2001 (Thailand) Co., Ltd.)",
+			"customer": "OMRON",
+			"images": ["ajec1.png",
+			"ajec2.png",
+			"ajec3.png"],
+			"skill_tool": ["VB.NET",
+			"Microsoft SQL Server 2012",
+			"PLC: Omron CX-One 4.21 + Software (CX-Compolet+CX-One+FinsGateway+CX-Simulator)"]
+		},
+		{
+			"name": "Portable Database",
+			"description": "Portable Database with:\n+Easy and Fast to Search\n+JSON export import for both Javascript/VBA\n+TEXT2TAG\n+More",
+			"enduser": "Me, Yaskawa",
+			"customer": "Me, Yaskawa",
+			"images": ["y-database1.png",
+			"y-database2.png"],
+			"skill_tool": ["HTML",
+			"Javascript",
+			"JSON",
+			"VBA",
+			"PHP",
+			"TEXT2TAG"]
+		}]
+	}]
+}
