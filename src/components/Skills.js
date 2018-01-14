@@ -36,7 +36,6 @@ const Skills = props => {
       let maxSize = 1.5
       tags = (
         <div className='tags'>
-          Tags:
             <ul className="tags-list">
               {
                   props.skillsData.map((tag,idx) => {

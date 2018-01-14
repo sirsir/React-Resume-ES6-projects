@@ -59,9 +59,9 @@ a {
   top: 4px;
 }
 
-.contact-links li {
-  margin-bottom: 15px;
-}
+// .contact-links li {
+//   margin-bottom: 15px;
+// }
 .profileLinks li a {
   text-decoration: none;
   color: #000;
@@ -141,4 +141,45 @@ a {
     font-size: 1.5em;
   }
 
+}
+
+.skills{
+  li{
+    background-color: #7d8dc6 !important;
+
+    a{
+      color: white;
+    }
+  }
+}
+.center{
+    text-align: -webkit-center;
+}
+.profile{
+  ul.contact-links{
+    display: table;
+    // margin-left: 2em;
+
+    li{
+      display: table-row;
+      margin: 0.5em 0 0 0em;
+
+      &>*:first-child{
+        padding: 0em 1em 0.8em 0em;
+        text-align: center;
+        vertical-align: middle;
+
+        img{
+          margin: 0;
+        }
+      }
+
+      &>*{
+        display: table-cell;
+        text-align: left;
+        vertical-align: middle;
+      }
+
+    }
+  }
 }
