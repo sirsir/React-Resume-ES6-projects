@@ -4,30 +4,32 @@ import moment from 'moment';
 const Project = props => {
     // const props.projectData
 
-    const fnProjectFromObj = (item)=>{
+    const fnProjectFromObj = (item,idx)=>{
       return (
-          <div>
+          <div key={'project'+idx} >
             <h5>{item.name} </h5>
             <h6>{item.description}</h6>
             <ul>
               <li>End-user: {item.enduser}</li>
               <li>Customer: {item.customer}</li>
               <li>Skills&Tools:
-                <ul>
-                  {item.skill_tool.map(
-                    s=>{return (<li>{s}</li>)}
-                  )}
-                </ul>
+                <div className='tags'>
+                  <ul>
+                    {item.skill_tool.map(
+                      (s,idx2)=>{return (<li key={'project'+idx+'-'+idx2}>{s}</li>)}
+                    )}
+                  </ul>
+                </div>
               </li>
               <div className="screenshots">
               {item.images.map(
-                img=>{
+                (img,idx3)=>{
                   const style = {
-                    'max-width': 100/item.images.length+'%',
+                    'maxWidth': 100/item.images.length+'%',
                   };
 
                   return (
-                    <a href={'img/projects/'+img} target='_blank'>
+                    <a key={idx3} href={'img/projects/'+img} target='_blank'>
                       <img src={'img/projects/'+img} style={style}  />
                     </a>
                   )
@@ -49,11 +51,11 @@ const Project = props => {
     const getProject = props.projectData.projects.map(function(element, key, _array) {
 
       return (
-        <div>
+        <div key={key}>
         <h3>{element.name}</h3>
         <div>
         {element.projects.map(
-        (p) => fnProjectFromObj(p)
+        (p,idx) => fnProjectFromObj(p,idx)
         )}
         </div>
         </div>

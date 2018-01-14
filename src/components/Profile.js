@@ -13,12 +13,24 @@ const Profile = props => {
                   <div className="divider"></div>
                   <ul className="list-unstyled contact-links text-center">
                     <li><i className="fa fa-lg fa-location-arrow"></i>{profileObj.location.city}, {profileObj.location.region}, {profileObj.location.countryCode}</li>
-                    <li><i className="fa fa-lg fa-envelope"></i><a href={`mailto:${profileObj.email}`}>E-mail: {profileObj.email}</a></li>
-                    <li><i className="fa fa-lg fa-id-card"></i><a href={'LINE:'+lineId}>{'LINE: '+lineId}</a></li>
+                    <li><i className="fa fa-lg fa-envelope"></i><a href={`mailto:${profileObj.email}`}>{profileObj.email}</a></li>
+                    <li><img className="leading-icon" src="./icon/LINE_Icon.png" /> <a href={lineId}>{lineId}</a></li>
                     <li><i className="fa fa-lg fa-mobile"></i><a href={tel}>{'Mobile: ' + tel}</a></li>
                   </ul>
+                  <div className="small-comment">
+                    <div className="divider"></div>
+                    <p>The full details are available online at <a href="https://sirsir-resume.firebaseapp.com/">https://sirsir-resume.firebaseapp.com/</a>.</p>
+                    <div className="divider"></div>
+                    <p>I built this site with <a href="https://facebook.github.io/react/">React</a> components and a <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>. The source code is cloned and modified from <a href="https://github.com/freaksauce/React-Resume-ES6">Jonathan Bloomer's Github repo</a>.</p>
+                  </div>
             </div>
 };
+
+
+// <li><i className="fa fa-lg fa-location-arrow"></i>{profileObj.location.city}, {profileObj.location.region}, {profileObj.location.countryCode}</li>
+// <li><i className="fa fa-lg fa-envelope"></i><a href={`mailto:${profileObj.email}`}>E-mail: {profileObj.email}</a></li>
+// <li><i className="fa fa-lg fa-id-card"></i><a href={'LINE:'+lineId}>{'LINE: '+lineId}</a></li>
+// <li><i className="fa fa-lg fa-mobile"></i><a href={tel}>{'Mobile: ' + tel}</a></li>
 
 // <div className="divider"></div>
 // <ul className="profileLinks list-inline text-center">

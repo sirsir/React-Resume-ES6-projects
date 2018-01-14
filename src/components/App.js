@@ -5,16 +5,29 @@ import Work from './Work';
 import Skills from './Skills';
 import Education from './Education';
 import Project from './Project';
+import Activity from './Activity';
+import Reward from './Reward';
+import Publication from './Publication';
+import Language from './Language';
+import Interest from './Interest';
+import Reference from './Reference';
+
 
 const App = props => {
   const profileData = props.jsonObj.resume.basics;
   const aboutData = profileData.summary;
   const workData = props.jsonObj.resume.work;
-  const skillsData = props.jsonObj.resume.skills;
+  // const skillsData = props.jsonObj.resume.skills;
+  const skillsData = props.jsonObj.resume.skillTags;
   const educationData = props.jsonObj.resume.education;
   const projectData = props.jsonObj.project
+  const activityData = props.jsonObj.resume.activities;
+  const rewardData = props.jsonObj.resume.rewards;
+  const publicationData = props.jsonObj.resume.publications;
+  const languageData = props.jsonObj.resume.languages;
+  const interestData = props.jsonObj.resume.interests;
+  const referenceData = props.jsonObj.resume.references;
 
-  // console.log(profileData)
   return (
           <div className="container">
             <div className="row">
@@ -30,6 +43,12 @@ const App = props => {
                   <Skills skillsData={skillsData} />
                   <Education educationData={educationData} />
                   <Project projectData={projectData} />
+                  <Activity activityData={activityData} />
+                  <Reward rewardData={rewardData} />
+                  <Publication publicationData={publicationData} />
+                  <Language languageData={languageData} />
+                  <Interest interestData={interestData} />
+                  <Reference referenceData={referenceData} />
                 </div>
               </main>
             </div>

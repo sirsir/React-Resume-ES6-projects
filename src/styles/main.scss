@@ -20,11 +20,14 @@ h1 {
 }
 h2 {
   font-size: 20px;
-  margin-top: 10px;
+  margin-bottom: 0;
+  margin-top: 2em;
   color: #777;
 }
 h3 {
+  display: inline-block;
   font-size: 16px;
+  padding-right: 1em;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -35,7 +38,7 @@ h4 {
 section h2 {
   padding-bottom: 10px;
   border-bottom: 1px solid #f0f0f0;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 }
 a {
   -webkit-transition: all 0.5s ease-out;
@@ -85,4 +88,57 @@ a {
       height: auto;
     }
   }
+}
+
+.leading-icon{
+  max-height: 1.5em;
+  width: auto;
+  height: auto;
+}
+
+.small-comment{
+  p{
+    font-size: 0.8em;
+  }
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.tags{
+  display: inline-block;
+
+  ul{
+    display: inline-block;
+  	list-style: none;
+    margin: 1px 0 0.2em 0;
+    padding: 0em;
+    font-size: 0.9em;
+
+    li{
+      display: inline-block;
+      padding: 0 0.4em 0 0.4em;
+      margin: 0 1em 0.1em 0;
+      width: auto;
+      background-color: #c8deef;
+      border-radius: 1em;
+    }
+  }
+}
+
+.publication{
+  .tags *{
+    font-size: 0.8em;
+  }
+}
+
+.interest{
+  .tags li{
+    // border: solid 1px blue;
+    color: white;
+    background-color: #6ab2f2;
+    font-size: 1.5em;
+  }
+
 }

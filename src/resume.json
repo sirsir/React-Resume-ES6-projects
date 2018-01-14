@@ -3,13 +3,13 @@
     "name": "Sirisak Wongsura",
     "Xlabel": "Programmer, Engineer",
     "label": "Programmer, Developer & Engineer",
-    "picture": "./profilePhotoSirisak.jpg",
+    "picture": "./img/profilePhotoSirisak.jpg",
     "email": "SirisakWongsura@gmail.com",
     "phone": "099-529-4809",
     "website": "",
     "Xsummary": "Creative, resourceful and flexible, able to adapt to changing priorities and maintain a positive attitude and strong work ethic.",
     "X2summary": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Front End Lead for a small React team and have been developing with React and Redux for the past 2 years.",
-    "summary": "I have been continuously challenging myself with novel multidisplinary technologies and working experience. Loving in new technology leading me to various kind of experiences. Starting from robot application in automotive factory system, my current role is applying AI, e.g. speeach technology, to increase productivity for various business fields",
+    "summary": "I have been continuously challenging myself with novel multidisplinary technologies and working experience. Loving in new technology leading me to various kind of experiences. Starting from robot application in automotive factory system, my current role is applying AI to increase productivity for various business fields",
     "location": {
       "address": "Huaykwang",
       "postalCode": "",
@@ -73,7 +73,7 @@
     },
 	{
       "company": "International Center, The University of Tokyo",
-      "position": "Programmer",
+      "position": "Developer",
       "website": "",
       "startDate": "April 2008",
       "endDate": "March 2011",
@@ -97,7 +97,7 @@
       ]
     }
   ],
-  "volunteer": [
+  "activities": [
     {
       "organization": "Thammasat U.",
       "position": "Committee",
@@ -107,35 +107,35 @@
       "summary": "",
       "highlights": [
         "Committee of the University Dormitory (By election)",
-		"Committee, Organizer, and Volunteer of Sports Tournaments (Bangkok Games etc.)"
+	      "Committee, Organizer, and Volunteer of Sports Tournaments (Bangkok Games etc.)"
       ]
     },
-	{
-      "organization": "Kidsai Thailand",
-      "position": "Staff",
-      "website": "http://www.kidssai.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "",
-      "highlights": [
-        "Forest Restoration and Conservation",
-		"Motivate Students"
-      ]
-    },
-	{
-      "organization": "English Summer Camp in Nasu 2009 (Japan)",
-      "position": "Staff",
-      "website": "",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "",
-      "highlights": [
-        "Do activity with Japanese kids",
-		"Teach English",
-		"Present Thai culture"
-      ]
-    },
-	{
+  	{
+        "organization": "Kidsai Thailand",
+        "position": "Staff",
+        "website": "http://www.kidssai.com/",
+        "startDate": "2012",
+        "endDate": "2013",
+        "summary": "",
+        "highlights": [
+          "Forest Restoration and Conservation",
+  		    "Motivate Students"
+        ]
+      },
+    	{
+          "organization": "English Summer Camp in Nasu 2009 (Japan)",
+          "position": "Staff",
+          "website": "",
+          "startDate": "2012",
+          "endDate": "2013",
+          "summary": "",
+          "highlights": [
+            "Do activity with Japanese kids",
+        		"Teach English",
+        		"Present Thai culture"
+          ]
+        },
+    	{
       "organization": "Fuji Mountain Cleaning Activities (Japan)",
       "position": "Staff",
       "website": "",
@@ -143,7 +143,7 @@
       "endDate": "2013",
       "summary": "",
       "highlights": [
-        "Do activity with Japanese Family"
+        "Do activity with Japanese host-family"
       ]
     }
   ],
@@ -187,51 +187,177 @@
       ]
     }
   ],
-  "awards": [
+  "rewards": [
     {
       "title": "Japanese Gov.(Monbukagakusho) Scholarship",
       "date": "2007-2011",
       "awarder": "Japanese Government",
-      "summary": "research and PhD. study in Japan"
+      "summary": ["scholarship for research and PhD. study in Japan"]
     },
 	{
       "title": "SIIT Full Scholarship",
       "date": "2003-2007",
       "awarder": "Sirindhorn International Institute of Technology (SIIT), Thammasat University",
-      "summary": "scholarship for master degree study with living expenses"
+      "summary": ["scholarship for master degree study with living expenses"]
     },
 	{
       "title": "SIIT TA Scholarship",
       "date": "1999-2003",
       "awarder": "Sirindhorn International Institute of Technology (SIIT), Thammasat University",
-      "summary": "full-support 4-years scholarship by University"
+      "summary": ["full-support 4-years scholarship by University"]
     },
 	{
       "title": "Sanwa Bank(UFJ) Scholarship",
       "date": "2000-2003",
       "awarder": "Japanese Sanwa Bank(UFJ)",
-      "summary": "good academic performance"
+      "summary": ["good academic performance","living-expense scholoarship"]
     },
 	{
       "title": "SICE 2005 Best Presentation Award",
       "date": "2005",
       "awarder": "The Society of Instrument and Control Engineers",
-      "summary": "Best Presentation Award"
+      "summary": ["Best Presentation Award"]
     },
 	{
       "title": "Good Student Award",
       "date": "2000",
       "awarder": "Thammasat University and Thailand Buddhist Association",
-      "summary": ""
+      "summary": ["Good conduct award"]
     }
   ],
   "publications": [
     {
       "name": "Discrete-time Feedback Error Learning Control",
-      "publisher": "",
+      "author": "S. Wongsura",
+      "publisher": "Thesis (M.S.)--Thammasat University",
       "releaseDate": "2007",
       "website": "http://koha.library.tu.ac.th/cgi-bin/koha/opac-detail.pl?biblionumber=492156&query_desc=(su%2Ccomplete-subfield%3A%7BAdaptive%20control%20systems.%7D)",
-      "summary": "Feedback control systems | Discrete-time systems | Adaptive control systems"
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Discrete-Time Feedback Error Learning and Nonlinear Adaptive Controller",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "ECTI-Transactions on Electrical Eng., Electronics, and Communications",
+      "page": "6: (2) 9-16",
+      "releaseDate": "2008",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Discrete-Time Feedback Error Learning with Time-Delay",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "Suranaree Journal of Science and Technology",
+      "page": "14: (3) 247-255",
+      "releaseDate": "2007",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "New Theoretical Analysis for the Discrete-Time Feedback Error Learning Method",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "Thammasat International Journal of Science and Technology",
+      "page": "12: (4) 62-73",
+      "releaseDate": "2007",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Robust Discrete-Time Feedback Error Learning",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "ScienceAsia: Journal of the Science Society of Thailand",
+      "page": "32 (3) 241-251",
+      "releaseDate": "2006",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Discrete-Time Feedback Error Learning , ",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "Suranaree Journal of Science & Technology",
+      "page": "12: (4) 266-275",
+      "releaseDate": "2005",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Nonlinear Discrete-Time Feedback Error Learning with PI Controller for AC Servo Motor",
+      "author": "N. Suwanjatuporn, M. Napaamporn, W. Kongprawechnon, and S. Wongsura",
+      "publisher": "SICE Annual Conference 2008 - International Conference on Instrumentation, Control and Information Technology, Tokyo, Japan",
+      "page": "August 20-22",
+      "releaseDate": "2008",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Theoretical Discussion on the Discrete-Time Feedback Error Learning for a Time Delay System with an Uncertainty Plant Model by using a PD Controller",
+      "author": "B. Phokaphan, P. Guptabutra, T. Onwan, S. Wongsura, and W. Kongprawechnon",
+      "publisher": "the Fourth Power Conversion Conference (PCC), Nagoya, Japan",
+      "page": "",
+      "releaseDate": "April 2-5, 2007",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Discrete-time Feedback Error Learning for Unknown Nonlinear Systems",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "the Second International Conference on Innovative Computing, Information and Control (ICICIC 2007), Kumamoto, Japan",
+      "page": "",
+      "releaseDate": "September 5-7, 2007",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Discrete-time Feedback Error Learning without recourse to Positive realness",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "the MTNS Conference (Mathematics Theory of Network and System), Kyoto, Japan",
+      "page": "",
+      "releaseDate": "July 24-28, 2006",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Discrete-time Feedback Error Learning with Phased-lead Controller",
+      "author": "T. Tanakorn, N. Hanpadungdhama, S. Wongsura and W. Kongprawechnon",
+      "publisher": "2006 ECTI International Conference (ECTI-CON2006), Ubon Ratchathani, Thailand",
+      "page": "",
+      "releaseDate": "May 10-13, 2006",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Feedback Error Learning with PD Controller",
+      "author": "S. Wongsura and W. Kongprawechnon",
+      "publisher": "2005 International Conference on Control, Automation and Systems (ICCAS2005), Seoul, Korea",
+      "page": "",
+      "releaseDate": "June 2-5, 2005",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Feedback Error Learning and H-infinity Control for Motor Control",
+      "author": "S. Wongsura, W. Kongprawechnon and S. Phoojaruenchanachai",
+      "publisher": "2004 International Conference on Control, Automation and Systems (ICCAS2004), Bangkok, Thailand",
+      "page": "",
+      "releaseDate": "August 25-27, 2004",
+      "website": "",
+      "summary": ["Feedback control systems","Discrete-time systems","Adaptive control systems"]
+    },
+    {
+      "name": "Conditions for mixed small gain and positive real property for LTI systems",
+      "author": "S. Wongsura, Lu Liu, S. Hara",
+      "publisher": "the 49th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE 2010 in Taiwan)",
+      "page": "",
+      "releaseDate": "2010",
+      "website": "",
+      "summary": ["GKYP","Robust control","Adaptive control"]
+    },
+    {
+      "name": "Conditions for mixed small gain and positive real property with its application to adaptive control",
+      "author": "S. Wongsura",
+      "publisher": "Workshop “Toward Glocal Control”, University of Tokyo, Japan",
+      "page": "",
+      "releaseDate": "2010",
+      "website": "http://www.cyb.ipc.i.u-tokyo.ac.jp/news/glocal_workshop10.html",
+      "summary": ["GKYP","Robust control","Adaptive control"]
     }
   ],
   "Xskills": [
@@ -243,6 +369,152 @@
     "JSP",
     "ASP"
   ],
+  "skillTags": [
+	{
+		"key": " C",
+		"score": 1
+	},
+	{
+		"key": " C++",
+		"score": 1
+	},
+	{
+		"key": " Perl",
+		"score": 1
+	},
+	{
+		"key": ".NET",
+		"score": 100
+	},
+	{
+		"key": "AutoCad",
+		"score": 80
+	},
+	{
+		"key": "AutoIt",
+		"score": 80
+	},
+	{
+		"key": "Barcode Scanner",
+		"score": 40
+	},
+	{
+		"key": "C#",
+		"score": 100
+	},
+	{
+		"key": "CSS",
+		"score": 100
+	},
+	{
+		"key": "Ms SQL Server",
+		"score": 80
+	},
+	{
+		"key": "Embedded Windows",
+		"score": 10
+	},
+	{
+		"key": "FreeCad",
+		"score": 30
+	},
+	{
+		"key": "GUI(wx, QT, tk, GTK+)",
+		"score": 80
+	},
+	{
+		"key": "HTML",
+		"score": 100
+	},
+	{
+		"key": "JAVA",
+		"score": 30
+	},
+	{
+		"key": "Javascript",
+		"score": 100
+	},
+	{
+		"key": "LabVIEW",
+		"score": 1
+	},
+	{
+		"key": "MATLAB",
+		"score": 80
+	},
+	{
+		"key": "MongoDB",
+		"score": 80
+	},
+	{
+		"key": "MotoCal",
+		"score": 100
+	},
+	{
+		"key": "MotoCOM",
+		"score": 100
+	},
+	{
+		"key": "MotoSIM",
+		"score": 100
+	},
+	{
+		"key": "MySql",
+		"score": 90
+	},
+	{
+		"key": "NodeJS",
+		"score": 80
+	},
+	{
+		"key": "PLC",
+		"score": 50
+	},
+	{
+		"key": "Postgresql",
+		"score": 50
+	},
+	{
+		"key": "Pspice",
+		"score": 40
+	},
+	{
+		"key": "Python",
+		"score": 50
+	},
+  {
+		"key": "React.js",
+		"score": 70
+	},
+	{
+		"key": "Ruby",
+		"score": 100
+	},
+	{
+		"key": "Rails",
+		"score": 100
+	},
+	{
+		"key": "SimuLink",
+		"score": 90
+	},
+	{
+		"key": "SolidWorks",
+		"score": 90
+	},
+  {
+		"key": "Telephony Systems",
+		"score": 90
+	},
+	{
+		"key": "VisualBasic",
+		"score": 100
+	},
+	{
+		"key": "VBA",
+		"score": 100
+	}
+],
   "skills": [
     {
       "name": "Web Development",
@@ -266,18 +538,17 @@
         ".NET (VB,C#)",
         "JAVA(Hibernate,Spring,Strut,Seasar)",
         "Ruby",
-    		"DATABASE:",
-    		"Ms SQL Server", 
+    		"DATABASE:Ms SQL Server",
     		"MySql", "Postgresql", "MongoDB",
     		"VBA",
-    		"AutoIt", "Python", " Perl", " C", " C++", "GUI(wx, QT, tk, GTK+)"		
+    		"AutoIt", "Python", " Perl", " C", " C++", "GUI(wx, QT, tk, GTK+)"
       ]
     },
 	{
       "name": "Devices/Environments",
       "level": "Master",
       "keywords": [
-        "Embedded Windows","(e.g. Casio DT-X8)", 
+        "Embedded Windows","(e.g. Casio DT-X8)",
     		"PLC","(e.g. Omron via CX-compolet)",
     		"Barcode Reader Systems"
       ]
@@ -287,34 +558,34 @@
       "level": "Master",
       "keywords": [
         "AutoCad",
-		"SolidWorks",
-		"FreeCad",
-		"Pspice",
-		"MATLAB",
-		"SimuLink",
-		"LabVIEW",
-		"MotoSIM",
-		"MotoCal",
-		"MotoCOM"
+    		"SolidWorks",
+    		"FreeCad",
+    		"Pspice",
+    		"MATLAB",
+    		"SimuLink",
+    		"LabVIEW",
+    		"MotoSIM",
+    		"MotoCal",
+    		"MotoCOM"
       ]
     }
   ],
   "languages": [
     {
       "language": "Thai",
-      "fluency": "Native speaker"
+      "fluency": ["Native speaker"]
     },
-	{
+  	{
       "language": "English",
-      "fluency": "TOEIC=830"
+      "fluency": ["TOEIC=830"]
     },
-	{
-      "language": "Japanese",
-      "fluency": "BJT=398"
-    },
-	{
+  	{
+        "language": "Japanese",
+        "fluency": ["4 years in Japan","BJT=398"]
+      },
+  	{
       "language": "German",
-      "fluency": "4 high-school courses"
+      "fluency": ["4 high-school courses"]
     }
   ],
   "interests": [
@@ -323,13 +594,17 @@
       "keywords": [
         "Football",
         "Comics",
-		"Games"
+		    "Games",
+        "Internet",
+        "Eating",
+        "Programming"
       ]
     }
   ],
   "references": [
     {
       "name": "Assoc. Prof. Dr. Waree Kongprawechnon",
+      "details": ["Assistant Director for Admission and Public Relations","School of Information, Computer, and Communication Technology (ICT), Sirindhorn International Institute of Technology (SIIT), Thammasat University","+66-2-986-9009, +66-2-986-9101, +66-2-564-3226 (Ext. 1120)", "waree@siit.tu.ac.th"],
       "Xreference": "It is my pleasure to recommend Sirisak, his performance working as a consultant for SIIT proved that he will be a valuable addition to any company."
     }
   ]
