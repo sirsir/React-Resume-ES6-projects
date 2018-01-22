@@ -40,14 +40,14 @@ const App = props => {
                 <div className="inner">
                   <About aboutData={aboutData} />
                   <Work workData={workData} />
-                  <Skills skillsData={skillsData} />
                   <Education educationData={educationData} />
-                  <Project projectData={projectData} />
                   <Activity activityData={activityData} />
                   <Reward rewardData={rewardData} />
                   <Publication publicationData={publicationData} />
                   <Language languageData={languageData} />
                   <Interest interestData={interestData} />
+                  <Project projectData={projectData} />
+                  <Skills skillsData={skillsData} />
                   <Reference referenceData={referenceData} />
                 </div>
               </main>

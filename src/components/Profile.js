@@ -22,8 +22,11 @@ const Profile = props => {
                   <div className="small-comment">
                     <div className="divider"></div>
                     <p>The full details are available online at <a href="https://sirsir-resume.firebaseapp.com/">https://sirsir-resume.firebaseapp.com/</a>.</p>
-                    <div className="divider"></div>
-                    <p>I built this site with <a href='https://facebook.github.io/react/'>React</a> components and a <a href='https://jsonresume.org/schema/'>JSON Resume Schema</a>. The source code is cloned and modified from <a href='https://github.com/freaksauce/React-Resume-ES6'>Jonathan Bloomer{'\''}s Github repo</a>.</p>
+                    {/*
+                      <div className="divider"></div>
+                      <p>I built this site with <a href='https://facebook.github.io/react/'>React</a> components and a <a href='https://jsonresume.org/schema/'>JSON Resume Schema</a>. The source code is cloned and modified from <a href='https://github.com/freaksauce/React-Resume-ES6'>Jonathan Bloomer{'\''}s Github repo</a>.</p>
+                    */}
+
                   </div>
             </div>
 };
