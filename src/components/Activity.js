@@ -3,8 +3,8 @@ import moment from 'moment';
 
 const Activity = props => {
     const getActivity = props.activityData.map(function(item, index) {
-  		const startdate = moment(item.startDate).format('MMM, YYYY');
-  		const enddate = moment(item.endDate).format('MMM, YYYY');
+  		const startdate = moment(item.startDate, 'MMM, YYYY').format('MMM, YYYY');
+  		const enddate = moment(item.endDate, 'MMM, YYYY').format('MMM, YYYY');
 
       // "organization": "Thammasat U.",
       // "position": "Committee",

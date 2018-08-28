@@ -3,10 +3,13 @@ import moment from 'moment';
 
 const WorkItem = props => {
     const getWorkDates = () => {
-        const startdate = moment(props.workItemData.startDate).format('MMM, YYYY');
+        // console.log(props.workItemData.startDate)
+        // const startdate = moment(props.workItemData.startDate).format('MMM, YYYY');
+        const startdate = moment(props.workItemData.startDate,'MMM, YYYY').format('MMM, YYYY');
+
         let enddate = null;
         if (props.workItemData.endDate !== '') {
-          enddate = moment(props.workItemData.endDate).format('MMM, YYYY');
+          enddate = moment(props.workItemData.endDate, 'MMM, YYYY').format('MMM, YYYY');
         } else {
           enddate = 'Present';
         }

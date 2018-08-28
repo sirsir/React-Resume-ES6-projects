@@ -3,8 +3,8 @@ import moment from 'moment';
 
 const Education = props => {
     const getEducation = props.educationData.map(function(item, index) {
-  		const startdate = moment(item.startDate).format('MMM, YYYY');
-  		const enddate = moment(item.endDate).format('MMM, YYYY');
+  		const startdate = moment(item.startDate, 'MMM, YYYY').format('MMM, YYYY');
+  		const enddate = moment(item.endDate, 'MMM, YYYY').format('MMM, YYYY');
   		return (
           <div key={index}>
             <h3>{item.studyType} {item.area}</h3>

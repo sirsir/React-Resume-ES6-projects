@@ -370,150 +370,184 @@
     "ASP"
   ],
   "skillTags": [
-	{
-		"key": " C",
-		"score": 1
-	},
-	{
-		"key": " C++",
-		"score": 1
-	},
-	{
-		"key": " Perl",
-		"score": 1
-	},
-	{
-		"key": ".NET",
-		"score": 100
-	},
-	{
-		"key": "AutoCad",
-		"score": 80
-	},
-	{
-		"key": "AutoIt",
-		"score": 80
-	},
-	{
-		"key": "Barcode Scanner",
-		"score": 40
-	},
-	{
-		"key": "C#",
-		"score": 100
-	},
-	{
-		"key": "CSS",
-		"score": 100
-	},
-	{
-		"key": "Ms SQL Server",
-		"score": 80
-	},
-	{
-		"key": "Embedded Windows",
-		"score": 10
-	},
-	{
-		"key": "FreeCad",
-		"score": 30
-	},
-	{
-		"key": "GUI(wx, QT, tk, GTK+)",
-		"score": 80
-	},
-	{
-		"key": "HTML",
-		"score": 100
-	},
-	{
-		"key": "JAVA",
-		"score": 30
-	},
-	{
-		"key": "Javascript",
-		"score": 100
-	},
-	{
-		"key": "LabVIEW",
-		"score": 1
-	},
-	{
-		"key": "MATLAB",
-		"score": 80
-	},
-	{
-		"key": "MongoDB",
-		"score": 80
-	},
-	{
-		"key": "MotoCal",
-		"score": 100
-	},
-	{
-		"key": "MotoCOM",
-		"score": 100
-	},
-	{
-		"key": "MotoSIM",
-		"score": 100
-	},
-	{
-		"key": "MySql",
-		"score": 90
-	},
-	{
-		"key": "NodeJS",
-		"score": 80
-	},
-	{
-		"key": "PLC",
-		"score": 50
-	},
-	{
-		"key": "Postgresql",
-		"score": 50
-	},
-	{
-		"key": "Pspice",
-		"score": 40
-	},
-	{
-		"key": "Python",
-		"score": 50
-	},
   {
-		"key": "React.js",
-		"score": 70
-	},
-	{
-		"key": "Ruby",
-		"score": 100
-	},
-	{
-		"key": "Rails",
-		"score": 100
-	},
-	{
-		"key": "SimuLink",
-		"score": 90
-	},
-	{
-		"key": "SolidWorks",
-		"score": 90
-	},
+    "category": "Desktop Applications",
+    "tags": [
+      {
+        "key": ".NET",
+        "score": 100
+      },
+      {
+        "key": "C#",
+        "score": 100
+      },
+      {
+    		"key": "JAVA",
+    		"score": 30
+    	},
+      {
+        "key": "Python",
+        "score": 50
+      },
+      {
+        "key": "VisualBasic",
+        "score": 100
+      },
+      {
+        "key": "VBA",
+        "score": 100
+      }
+    ]
+  },
   {
-		"key": "Telephony Systems",
-		"score": 90
-	},
-	{
-		"key": "VisualBasic",
-		"score": 100
-	},
-	{
-		"key": "VBA",
-		"score": 100
-	}
+    "category": "Web Applications",
+    "tags": [
+      {
+    		"key": "HTML",
+    		"score": 100
+    	},
+    	{
+    		"key": "Javascript",
+    		"score": 100
+    	},
+      {
+    		"key": "React.js",
+    		"score": 70
+    	},
+    	{
+    		"key": "Ruby",
+    		"score": 100
+    	},
+    	{
+    		"key": "Rails",
+    		"score": 100
+    	},
+      {
+        "key": "Node.js",
+        "score": 80
+      },
+      {
+        "key": "CSS",
+        "score": 100
+      },
+      {
+        "key": "D3.js",
+        "score": 100
+      }
+    ]
+  },
+  {
+    "category": "Engineering Applications",
+    "tags": [
+      {
+    		"key": "SimuLink",
+    		"score": 90
+    	},
+    	{
+    		"key": "SolidWorks",
+    		"score": 90
+    	},
+      {
+    		"key": "LabVIEW",
+    		"score": 1
+    	},
+    	{
+    		"key": "MATLAB",
+    		"score": 80
+    	},
+      {
+        "key": "MotoCal",
+        "score": 100
+      },
+      {
+        "key": "MotoCOM",
+        "score": 100
+      },
+      {
+        "key": "MotoSIM",
+        "score": 100
+      },
+      {
+        "key": "PLC",
+        "score": 50
+      },
+      {
+        "key": "Pspice",
+        "score": 40
+      },
+      {
+        "key": "AutoCad",
+        "score": 80
+      }
+    ]
+  },
+  {
+    "category": "Database",
+    "tags": [
+      {
+    		"key": "MySql",
+    		"score": 90
+    	},
+      {
+        "key": "MongoDB",
+        "score": 80
+      },
+      {
+        "key": "Postgresql",
+        "score": 50
+      },
+      {
+        "key": "Ms SQL Server",
+        "score": 80
+      },
+      {
+        "key": "Sqlite",
+        "score": 70
+      }
+    ]
+  },
+  {
+    "category": "Others",
+    "tags": [
+      {
+    		"key": "Telephony Systems",
+    		"score": 90
+    	},
+      {
+    		"key": " C",
+    		"score": 1
+    	},
+    	{
+    		"key": " C++",
+    		"score": 1
+    	},
+    	{
+    		"key": " Perl",
+    		"score": 1
+    	},
+    	{
+    		"key": "AutoIt",
+    		"score": 80
+    	},
+    	{
+    		"key": "Barcode Scanner",
+    		"score": 40
+    	},
+    	{
+    		"key": "Embedded Windows",
+    		"score": 10
+    	},
+    	{
+    		"key": "FreeCad",
+    		"score": 30
+    	},
+    	{
+    		"key": "GUI(wx, QT, tk, GTK+)",
+    		"score": 80
+    	}
+    ]
+  }
+
 ],
   "skills": [
     {
