@@ -5,7 +5,7 @@
     "label": "Programmer, Developer & Engineer",
     "picture": "./img/profilePhotoSirisak.jpg",
     "email": "SirisakWongsura@gmail.com",
-    "phone": "099-529-4809",
+    "phone": "080-295-0815, 099-529-4809",
     "website": "",
     "Xsummary": "Creative, resourceful and flexible, able to adapt to changing priorities and maintain a positive attitude and strong work ethic.",
     "X2summary": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Front End Lead for a small React team and have been developing with React and Redux for the past 2 years.",
@@ -386,16 +386,20 @@
     		"score": 30
     	},
       {
+        "key": "Ruby",
+        "score": 90
+      },
+      {
         "key": "Python",
         "score": 50
       },
       {
         "key": "VisualBasic",
-        "score": 100
+        "score": 70
       },
       {
         "key": "VBA",
-        "score": 100
+        "score": 50
       }
     ]
   },
@@ -403,36 +407,40 @@
     "category": "Web Applications",
     "tags": [
       {
-    		"key": "HTML",
-    		"score": 100
-    	},
-    	{
-    		"key": "Javascript",
-    		"score": 100
-    	},
-      {
-    		"key": "React.js",
-    		"score": 70
-    	},
-    	{
-    		"key": "Ruby",
-    		"score": 100
-    	},
-    	{
-    		"key": "Rails",
-    		"score": 100
-    	},
-      {
         "key": "Node.js",
         "score": 80
       },
       {
-        "key": "CSS",
+        "key": "Ruby on Rails",
         "score": 100
       },
       {
-        "key": "D3.js",
-        "score": 100
+        "key": "React.js",
+        "score": 80
+      },
+      {
+    		"key": "HTML",
+    		"score": 30
+    	},
+    	{
+    		"key": "Javascript",
+    		"score": 30
+    	},
+      {
+        "key": "CSS",
+        "score": 30
+      },
+      {
+        "key": "D3.js/C3.js",
+        "score": 30
+      },
+      {
+        "key": "PHP",
+        "score": 30
+      },
+      {
+        "key": "Laravel",
+        "score": 30
       }
     ]
   },
@@ -441,11 +449,11 @@
     "tags": [
       {
     		"key": "SimuLink",
-    		"score": 90
+    		"score": 20
     	},
     	{
     		"key": "SolidWorks",
-    		"score": 90
+    		"score": 50
     	},
       {
     		"key": "LabVIEW",
@@ -453,31 +461,31 @@
     	},
     	{
     		"key": "MATLAB",
-    		"score": 80
+    		"score": 20
     	},
       {
         "key": "MotoCal",
-        "score": 100
+        "score": 20
       },
       {
         "key": "MotoCOM",
-        "score": 100
+        "score": 20
       },
       {
-        "key": "MotoSIM",
+        "key": "MotoSIM(Robotic Simulator)",
         "score": 100
       },
       {
         "key": "PLC",
-        "score": 50
+        "score": 80
       },
       {
         "key": "Pspice",
-        "score": 40
+        "score": 20
       },
       {
         "key": "AutoCad",
-        "score": 80
+        "score": 50
       }
     ]
   },
@@ -491,6 +499,10 @@
       {
         "key": "MongoDB",
         "score": 80
+      },
+      {
+        "key": "Elasticsearch",
+        "score": 90
       },
       {
         "key": "Postgresql",
@@ -510,8 +522,16 @@
     "category": "Others",
     "tags": [
       {
-    		"key": "Telephony Systems",
-    		"score": 90
+        "key": "RabbitMQ",
+        "score": 80
+      },
+      {
+        "key": "Reddis",
+        "score": 50
+      },
+      {
+    		"key": "Telephony Systems(PBX, Asterisk, Elastix)",
+    		"score": 50
     	},
       {
     		"key": " C",
@@ -543,8 +563,37 @@
     	},
     	{
     		"key": "GUI(wx, QT, tk, GTK+)",
-    		"score": 80
-    	}
+    		"score": 1
+    	},
+      {
+        "key": "Git",
+        "score": 100
+      },
+      {
+        "key": "Jira",
+        "score": 100
+      }
+    ]
+  },
+  {
+    "category": "MANAGEMENT / SOFT SKILLS",
+    "tags": [
+      {
+        "key": "Agile",
+        "score": 90
+      },
+      {
+        "key": "Kanban",
+        "score": 80
+      },
+      {
+        "key": "報・連・相",
+        "score": 100
+      },
+      {
+        "key": "Workflow",
+        "score": 80
+      }
     ]
   }
 

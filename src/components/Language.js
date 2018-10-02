@@ -6,7 +6,7 @@ const Language = props => {
 
   		return (
           <div key={index}>
-            <h3>{item.language} </h3>
+            <h3>{item.language}: </h3>
             <div className='tags'>
               <ul>
               {

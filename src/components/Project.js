@@ -16,7 +16,11 @@ const Project = props => {
                 <div className='tags'>
                   <ul>
                     {item.skill_tool.map(
-                      (s,idx2)=>{return (<li key={'project'+idx+'-'+idx2}>{s}</li>)}
+                      (s,idx2)=>{return (<li key={'project'+idx+'-'+idx2}>
+                        <a href='#' onClick={(e)=>{e.preventDefault();}}>
+                          {s}
+                        </a>
+                        </li>)}
                     )}
                   </ul>
                 </div>

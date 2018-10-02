@@ -37,6 +37,7 @@ const Skills = props => {
 
       let minSize = 0.8
       let maxSize = 1.5
+
       tags = (
         <div className='skills'>
           {
@@ -56,7 +57,7 @@ const Skills = props => {
                               <li key={idx} style={{
                                 fontSize: tagSize.toString()+'em'
                               }} >
-                                <a href='#' onClick={()=>{props._searchTag(tag.key)}}>{tag.key} <span></span></a>
+                                <a href='#' onClick={(e)=>{e.preventDefault();}}>{tag.key} </a>
                               </li>
                             )
                           })

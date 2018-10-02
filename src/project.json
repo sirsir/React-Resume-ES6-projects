@@ -4,24 +4,72 @@
 		"name": "Software Engineer",
 		"projects": [
 			{
-				"name": "Amivoice Watcher, Notification & Recommendation",
-				"description": "C#.Net project to receive Notification, show recommendation and guidance. Watcher function will record user activity.",
+				"name": "Amivoice Operator Helping System [Web Application for Call Center]",
+				"description": "Ruby on Rails web application front-end/back-end to serve the webpages, store, analyze and report the customer-agent conservation based on the speech recognition of the telephone conversation",
+				"enduser": "ACSS, Aeon, Cigna",
+				"customer": "Aeon, Cigna",
+				"images": [
+				  "amivoice/aohs/0.png",
+				  "amivoice/aohs/1.png",
+				  "amivoice/aohs/2.png",
+				  "amivoice/aohs/3.png",
+				  "amivoice/aohs/4.png",
+				  "amivoice/aohs/5.png",
+				  "amivoice/aohs/6.png",
+				  "amivoice/aohs/7.png",
+				  "amivoice/aohs/8.png",
+				  "amivoice/aohs/9.png",
+				  "amivoice/aohs/10.png"
+				],
+				"skill_tool": [
+					"Ruby 2.3.1p112",
+					"Rails 4.2.5.2",
+					"jruby 9.0.0.0 (2.2.2)",
+					"D3.js/chart.js",
+					"MySQL",
+					"Elasticsearch"
+				]
+			},
+			{
+				"name": "Amivoice Notification & Recommendation System [Real-time Recommendation System]",
+				"description": "Ruby on Rails + C#.Net project to send Notification, Recommendation based on Real-time Conversation",
 				"enduser": "ACSS, Aeon",
 				"customer": "Aeon",
 				"images": ["amivoice/watcher1.png",
-				"amivoice/watcher2.png",
-				"amivoice/watcher3.png",
-				"amivoice/watcher4.png"],
-				"skill_tool": ["C#.Net",
-				"Chrome Embeded Framework",
-				"Ruby",
-				"Rails",
-				"html5",
-				"javascript",
-				"css",
-				"MySQL",
-				"Navicat",
-				"Ms Visual Studio 2015"]
+					"amivoice/watcher2.png",
+					"amivoice/watcher3.png",
+					"amivoice/watcher4.png"],
+					"skill_tool": [
+						"C#.Net",
+						"Chrome Embeded Framework",
+						"Ruby",
+						"Rails",
+						"html5",
+						"javascript",
+						"css",
+						"MySQL",
+						"RabbitMq"
+					]
+			},
+			{
+				"name": "Amivoice Watcher [Monitoring and Logging PC Usage Activity]",
+				"description": "Monitor user activity (e.g. Login, Logout), websurfing, streaming and recording the captured video",
+				"enduser": "ACSS, Aeon",
+				"customer": "Aeon",
+				"images": ["amivoice/watcher1.png",
+					"amivoice/watcher2.png",
+					"amivoice/watcher3.png",
+					"amivoice/watcher4.png"],
+					"skill_tool": ["C#.Net",
+					"Node.js",
+					"Ruby",
+					"Rails",
+					"html5",
+					"javascript",
+					"css",
+					"MySQL",
+					"MongoDb"
+				]
 			},
 			{
 				"name": "TQM Telephony System Modification",
@@ -39,12 +87,14 @@
 			},
 			{
 				"name": "Sensitive Data Masking",
-				"description": "Mask some sensitive data, e.g. Customer's Personal ID, Credit card number, from speeach recognition results.",
+				"description": "Mask and protect sensitive data, e.g. Customer's Personal ID, Credit card number, from speeach recognition results.",
 				"enduser": "Aeon, ACSS, Cigna",
-				"customer": "True voice",
+				"customer": "TrueVoice",
 				"images": [],
-				"skill_tool": ["ruby",
-				"rails"]
+				"skill_tool": [
+					"ruby",
+					"rails"
+				]
 			},
 			{
 				"name": "Speech Analytic -- Root cause and Trend Analysis",
@@ -100,7 +150,7 @@
 			"fct-erb5.png",
 			"fct-erb6.png"
 			],
-			"skill_tool": ["Ruby",
+			"skill_tool": ["Ruby 1.8",
 			"Rail",
 			"Prawn",
 			"MySQL"]
@@ -147,7 +197,7 @@
 		"name": "Robot Engineer",
 		"projects": [{
 			"name": "Robotics Systems",
-			"description": "Design, Simulate Robotics Systems",
+			"description": "Design, Simulate Robotics Systems for Factory Automation",
 			"enduser": "Honda, Toyoto, Isuzu, Yakult, Srithai Miyagawa, Tostem, A-Plus Automation etc.",
 			"customer": "Robot Systems,  etc.",
 			"images": [
