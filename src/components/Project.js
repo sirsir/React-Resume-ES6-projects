@@ -2,6 +2,10 @@ import React from 'react';
 import moment from 'moment';
 
 const Project = props => {
+    // window.x = props
+    if (! props.projectData) {
+      return null;
+    }
     // const props.projectData
 
     const fnProjectFromObj = (item,idx)=>{
@@ -53,7 +57,6 @@ const Project = props => {
     // const getProject = Object.keys(props.projectData.projects).map(function(element, key, _array) {
 
     const getProject = props.projectData.projects.map(function(element, key, _array) {
-
       return (
         <div key={key}>
         <h3>{element.name}</h3>

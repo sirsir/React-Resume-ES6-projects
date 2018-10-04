@@ -28,6 +28,8 @@ const App = props => {
   const interestData = props.jsonObj.resume.interests;
   const referenceData = props.jsonObj.resume.references;
 
+  props.jsonObj.exclude = props.jsonObj.exclude? props.jsonObj.exclude:[];
+
   return (
           <div className="container">
             <div className="row">
@@ -43,10 +45,22 @@ const App = props => {
                   <Education educationData={educationData} />
                   <Activity activityData={activityData} />
                   <Reward rewardData={rewardData} />
-                  <Publication publicationData={publicationData} />
+                  {
+                    props.jsonObj.exclude.includes('publication')? 
+                      null
+                      :
+                      <Publication publicationData={publicationData} />
+                  }
+                  
                   <Language languageData={languageData} />
                   <Interest interestData={interestData} />
-                  <Project projectData={projectData} />
+                  {
+                    props.jsonObj.exclude.includes('project')? 
+                      null
+                      :
+                      <Project projectData={projectData} />
+                  }
+                  
                   <Skills skillsData={skillsData} />
                   <Reference referenceData={referenceData} />
                 </div>
