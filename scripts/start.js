@@ -26,7 +26,7 @@ if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
 }
 
 // Tools like Cloud9 rely on this.
-var DEFAULT_PORT = process.env.PORT || 3001;
+var DEFAULT_PORT = process.env.PORT || 3002;
 var compiler;
 var handleCompile;
 

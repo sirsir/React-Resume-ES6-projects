@@ -8,6 +8,24 @@ const Project = props => {
     }
     // const props.projectData
 
+    const getMedia = (img,idx,style)=>{
+      if (img.match(/(mp4|avi)$/)){
+        return <video key={idx} style={style} >
+          <source src={'img/projects/'+img} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      } else {
+        return img.indexOf('xx')===0? 
+        null
+        : 
+        (
+            <a key={idx} href={'img/projects/'+img} target='_blank'>
+              <img src={'img/projects/'+img} style={style}  />
+            </a>
+        )
+      }
+    }
+
     const fnProjectFromObj = (item,idx)=>{
       return (
           <div key={'project'+idx} >
@@ -36,11 +54,7 @@ const Project = props => {
                     'maxWidth': 100/item.images.length+'%',
                   };
 
-                  return (
-                    <a key={idx3} href={'img/projects/'+img} target='_blank'>
-                      <img src={'img/projects/'+img} style={style}  />
-                    </a>
-                  )
+                  return getMedia(img,idx3,style)
                 }
               )}
               </div>

@@ -61,7 +61,8 @@
     "react-dom": "^15.4.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start_old": "node scripts/start.js",
+    "start": "nodemon scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "deploy": "node scripts/build.js && firebase deploy"

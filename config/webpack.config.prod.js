@@ -53,10 +53,20 @@ module.exports = {
   // You can exclude the *.map files from the build during deployment.
   devtool: 'source-map',
   // In production, we only want to load the polyfills and the app code.
-  entry: [
-    require.resolve('./polyfills'),
-    paths.appIndexJs
-  ],
+  entry: {
+    index: [
+      require.resolve('./polyfills'),
+      paths.appIndexJs
+    ],
+    index_min: [
+      require.resolve('./polyfills'),
+      paths.appIndexMinJs
+    ],
+    portfolio: [
+      require.resolve('./polyfills'),
+      paths.appPortfolioJs
+    ]
+  },
   output: {
     // The build folder.
     path: paths.appBuild,
@@ -66,7 +76,7 @@ module.exports = {
     filename: 'static/js/[name].[chunkhash:8].js',
     chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
     // We inferred the "public path" (such as / or /my-project) from homepage.
-    publicPath: publicPath
+    publicPath: path.join('.',publicPath)
   },
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
@@ -199,6 +209,48 @@ module.exports = {
         minifyCSS: true,
         minifyURLs: true
       }
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      // template: paths.appHtmlMin,
+      template: paths.appHtml,
+      // title: 'Resume w/o Projects',
+      // myPageHeader: 'Settings',
+      chunks: ['index_min'],
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        keepClosingSlash: true,
+        minifyJS: true,
+        minifyCSS: true,
+        minifyURLs: true
+      },
+      filename: 'resume_min.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      // template: paths.appHtmlMin,
+      template: paths.appHtml,
+      // title: 'Resume w/o Projects',
+      // myPageHeader: 'Settings',
+      chunks: ['portfolio'],
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        keepClosingSlash: true,
+        minifyJS: true,
+        minifyCSS: true,
+        minifyURLs: true
+      },
+      filename: 'portfolio.html'
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.

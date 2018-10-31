@@ -249,3 +249,12 @@ ul>li>.tags{
     content: none !important;
   }
 }
+
+.portfolio{
+  .project .screenshots img {
+      max-height: 20% !important;
+      max-width: 50% !important;
+      width: auto;
+      height: auto;
+  }
+}
