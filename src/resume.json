@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Sirisak Wongsura",
-    "Xlabel": "Programmer, Engineer",
-    "label": "Programmer, Developer & Engineer",
+    "Xlabel": "Programmer, Developer & Engineer",
+    "label": "CTO, PM, System Analyst & Developer",
     "picture": "./img/profilePhotoSirisak.jpg",
     "email": "SirisakWongsura@gmail.com",
-    "phone": "080-295-0815, 099-529-4809",
+    "phone": "099-529-4809, 083-607-3303",
     "website": "",
     "Xsummary": "Creative, resourceful and flexible, able to adapt to changing priorities and maintain a positive attitude and strong work ethic.",
     "X2summary": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Front End Lead for a small React team and have been developing with React and Redux for the past 2 years.",
@@ -31,12 +31,29 @@
     ]
   },
   "work": [
-	{
+    {
+      "company": "Digital Dialogue Co.,Ltd.",
+      "position": "Senior Research And Development Engineer",
+      "website": "",
+      "startDate": "December 2017",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Provide thought leadership and direction for product efforts with team engineering groups",
+        "Help to build the innovation pipeline by being a voice of the customer",
+        "Execute Proof of concept work to help determine develop decisions",
+        "Lead strategic initiatives until the point of transition",
+        "Provide expertise for M&A activities ",
+        "Develop white papers, blogs, conference presentations",
+        "Help to develop working prototypes and software that can be built upon"
+      ]
+    },
+    {
       "company": "Amivoice Thai Co.,Ltd.",
       "position": "Software Engineer",
       "website": "",
       "startDate": "July 2016",
-      "endDate": "",
+      "endDate": "November 2017",
       "summary": "",
       "highlights": [
         "Design, build, and test various technological applications",
@@ -415,7 +432,15 @@
         "score": 100
       },
       {
+        "key": "Django",
+        "score": 80
+      },
+      {
         "key": "React.js",
+        "score": 80
+      },
+      {
+        "key": "Spring Boot",
         "score": 80
       },
       {
