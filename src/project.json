@@ -31,7 +31,7 @@
 					"Django",
 					"Spring Boot",
           "Microsoft SQL",
-          "Oracle DB2",          
+          "Oracle DB2",
           "Websocket"
 				]
 			},
@@ -84,14 +84,31 @@
 					]
 			},
 			{
-				"name": "Amivoice Watcher [Monitoring and Logging PC Usage Activity]",
+				"name": "E-Commerce Websites",
+				"description": "À la carte PHP, Laravel-based Website",
+				"enduser": "Online Cosmetics, Dress Store, Homepage for many company. Supports SMS, Line, Chat, Easy Admin, etc.",
+				"customer": "AmiVoice, Yaskawa, Ufa-Vip, Kolok Boutique",
+				"images": [
+				],
+				"skill_tool": [
+					"Mobile-first Design",
+					"PHP",
+					"Laravel",
+					"MySQL",
+					"Hostgator",
+					"XAMPP",
+					"THSMS"
+				]
+			},
+			{
+				"name": "Amivoice Watcher [Windows Service for Monitoring and Logging PC Usage Activity]",
 				"description": "Monitor user activity (e.g. Login, Logout), websurfing, streaming and recording the captured video",
 				"enduser": "ACSS, Aeon",
 				"customer": "Aeon",
 				"images": [
-        ],
-        "skill_tool": [
-          "C#.Net",
+				],
+				"skill_tool": [
+					"C#.Net",
 					"Node.js",
 					"Ruby",
 					"Rails",
@@ -232,14 +249,30 @@
 			"enduser": "Honda, Toyoto, Isuzu, Yakult, Srithai Miyagawa, Tostem, A-Plus Automation etc.",
 			"customer": "Robot Systems,  etc.",
 			"images": [
-			"yaskawa/1.png",
-			"yaskawa/2.png",
-			"yaskawa/3.png",
-			"yaskawa/4.png",
-			"yaskawa/5.png",
-			"yaskawa/6.png",
-			"yaskawa/7.png",
-			"yaskawa/8.png"],
+				"yaskawa/1.png",
+				"xxyaskawa/2.png",
+				"yaskawa/3.png",
+				"xxyaskawa/4.png",
+				"xxyaskawa/5.png",
+				"xxyaskawa/6.png",
+				"yaskawa/7.png",
+				"yaskawa/8.png",
+				"yaskawa/customer-requests/1.png",
+				"yaskawa/3d-design/base.png",
+				"yaskawa/3d-design/conveyor.png",
+				"yaskawa/3d-design/layout-for-metalex.png",
+				"yaskawa/sim/paint1-1.png",
+				"yaskawa/sim/paint1-2.png",
+				"yaskawa/sim/surface/1-cant_reach.png",
+				"yaskawa/sim/surface/2-layout.png",
+				"yaskawa/sim/surface/sim.mp4",
+				"yaskawa/sim/palletizing/1.png",
+				"yaskawa/sim/palletizing/2.png",
+				"yaskawa/sim/palletizing/3.png",
+				"yaskawa/sim/palletizing/4.png",
+				"yaskawa/sim/spot_handling/1.png",
+				"yaskawa/sim/spot_handling/2.png"
+			],
 			"skill_tool": ["MotoSim",
 			"AutoCad",
 			"SolidWorks"]

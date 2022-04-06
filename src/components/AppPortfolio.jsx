@@ -38,7 +38,7 @@ const App = props => {
                                     // <Language languageData={languageData} />
                   // <Interest interestData={interestData} />
   return (
-          <div className="container">
+          <div className="container portfolio">
             <div className="row">
               <aside className="col-md-4">
                 <div className="inner">

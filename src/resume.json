@@ -167,8 +167,8 @@
   "education": [
     {
       "institution": "Sirindhorn International Institute of Technology (SIIT), Thammasat University",
-      "area": "Electrical Engineering(Full-Scholarship)",
-      "studyType": "Bachelor of Electrical Engineering (1st class honors)",
+      "area": "Electrical Engineering",
+      "studyType": "[1st class honors, Full-Scholarship] Bachelor of Electrical Engineering",
       "startDate": "April, 1999",
       "endDate": "March, 2003",
       "gpa": "3.52",
@@ -180,7 +180,7 @@
 	{
       "institution": "Sirindhorn International Institute of Technology (SIIT), Thammasat University",
       "area": "Electrical Engineering",
-      "studyType": "Master of Science Electrical Engineering (Full-TA Scholarship)",
+      "studyType": "[Full-TA Scholarship] Master of Science Electrical Engineering ",
       "startDate": "April, 2003",
       "endDate": "March, 2007",
       "gpa": "3.75",
@@ -193,7 +193,7 @@
 	{
       "institution": "The University of Tokyo",
       "area": "Electrical Engineering",
-      "studyType": "Researcher/ Graduate student (Monbukagakusho/Japanese Gov. Scholarship)  ",
+      "studyType": "[Monbukagakusho/Japanese Gov. Scholarship]  Researcher/ Graduate student",
       "startDate": "April, 2007",
 	  "endDate": "March, 2011(withdrawn in good standing)",
       "gpa": "4.00",
@@ -206,7 +206,7 @@
   ],
   "rewards": [
     {
-      "title": "Japanese Gov.(Monbukagakusho) Scholarship",
+      "title": "Monbukagakusho Scholarship",
       "date": "2007-2011",
       "awarder": "Japanese Government",
       "summary": ["scholarship for research and PhD. study in Japan"]
