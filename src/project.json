@@ -3,6 +3,38 @@
 	{
 		"name": "Software Engineer",
 		"projects": [
+      {
+				"name": "Cubika Chatbot",
+				"description": "AI powered chatbot application to enhance customer management utilizing Natural Language Processing, Speech Technology and Serverless Microservice architecture",
+				"enduser": "Thai Airways, Bamrunrad, Thai Port, BEC",
+				"customer": "Microsoft",
+				"images": [
+          "chat_bot/cubika.png",
+				  "chat_bot/nongfah.png",
+          "chat_bot/bot4electric.png",
+				  "chat_bot/bot4electric2.png",
+				  "chat_bot/bot4electric3.png",
+				  "chat_bot/bot4library.png",
+				  "chat_bot/bot4metroWater.png",
+				  "chat_bot/bot4shop.png",
+				  "chat_bot/speech.png",
+				  "chat_bot/askDr1.png",
+          "chat_bot/findDr1.png",
+          "chat_bot/tg1.png",
+          "chat_bot/tg2.png"
+				],
+				"skill_tool": [
+          "Speech Recognition",
+          "Natural Language Processing",
+					"Azure",
+					"Google Cloud Services",
+					"Django",
+					"Spring Boot",
+          "Microsoft SQL",
+          "Oracle DB2",
+          "Websocket"
+				]
+			},
 			{
 				"name": "Amivoice Operator Helping System [Web Application for Call Center]",
 				"description": "Ruby on Rails web application front-end/back-end to serve the webpages, store, analyze and report the customer-agent conservation based on the speech recognition of the telephone conversation",
